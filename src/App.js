@@ -11,7 +11,7 @@ import React, { useState } from "react";
 import testArray from "./testArray";
 
 function App() {
-  const [arrayToSort, setArrayToSort] = useState(testArray);
+  const [arrayToSort, setArrayToSort] = useState([]);
   const [sortingAlgorithm, setSortingAlgorithm] = useState(
     "CHOOSE AN ALGORITHM"
   );
